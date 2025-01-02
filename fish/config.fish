@@ -9,3 +9,4 @@ mise activate fish | source
 abbr --add lzg lazygit
 abbr --add lzd lazydocker
 abbr --add gss git status --short
+abbr --add gl git pull
