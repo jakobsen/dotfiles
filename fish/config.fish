@@ -10,3 +10,10 @@ abbr --add lzg lazygit
 abbr --add lzd lazydocker
 abbr --add gss git status --short
 abbr --add gl git pull
+
+# pnpm
+set -gx PNPM_HOME "/Users/erik/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
