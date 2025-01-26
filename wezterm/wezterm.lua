@@ -6,9 +6,9 @@ config.font = wezterm.font("Iosevka Nerd Font")
 config.font_size = 18
 
 if appearance.is_dark() then
-    config.color_scheme = "One Dark (Gogh)"
+    config.color_scheme = "OneDark (base16)"
 else
-    config.color_scheme = "One Light (Gogh)"
+    config.color_scheme = "One Light (base16)"
 end
 
 --slightly transparent and blurred background
