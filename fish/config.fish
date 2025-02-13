@@ -12,8 +12,11 @@ abbr --add gss git status --short
 abbr --add gl git pull
 
 # pnpm
-set -gx PNPM_HOME "/Users/erik/Library/pnpm"
+set -gx PNPM_HOME /Users/erik/Library/pnpm
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+# direnv
+direnv hook fish | source
