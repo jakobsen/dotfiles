@@ -22,5 +22,15 @@
   "vim": {
     "toggle_relative_line_numbers": true
   },
-  "cursor_blink": false
+  "cursor_blink": false,
+  "languages": {
+    "Markdown": {
+      "preferred_line_length": 80,
+      "soft_wrap": "preferred_line_length"
+    },
+    "YAML": {
+      "preferred_line_length": 80,
+      "soft_wrap": "preferred_line_length"
+    }
+  }
 }
