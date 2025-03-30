@@ -17,5 +17,10 @@
     "light": "One Light",
     "dark": "One Dark"
   },
-  "vim_mode": false
+  "relative_line_numbers": true,
+  "vim_mode": true,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "cursor_blink": false
 }
